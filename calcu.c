@@ -2,10 +2,10 @@
 
 int main()
 {
-	char name[50];
-	printf("Enter your name:");
-	scanf("%s", name);
-	printf("Hello %s!\n", name);
+	int n1, n2;
+	printf("Enter two numbers:");
+	scanf("%d %d", &n1, &n2);
+	printf("%d + %d = %d \n", n1, n2, n1+n2);
 	return 0;
 }
 
